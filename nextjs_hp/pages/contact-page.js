@@ -1,34 +1,34 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 
-const Contact = () => {
+export default function Contact() {
   return (
     <Layout title="Contact">
       <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
         <div className="mt-4">
-          <p className="font-bold">Contact Info</p>
+          <p className="font-bold">Contant info</p>
         </div>
         <div className="flex justify-center mt-4">
           <Image
             className="rounded-full"
-            src="/ken.jpeg"
+            src="/avatar.jpg"
             width={60}
-            height={70}
+            height={60}
             alt="Avatar"
           />
         </div>
         <div className="mt-4">
           <p className="font-bold">Address</p>
-          <p className="text-xs mt-2 text-gray-600">Hyogo</p>
+          <p className="text-xs mt-2 text-gray-600">city A</p>
           <p className="font-bold mt-3">E-mail</p>
-          <p className="text-xs mt-2 text-gray-600">ken@gmail.com</p>
+          <p className="text-xs mt-2 text-gray-600">abc@gmail.com</p>
           <p className="font-bold mt-3">Phone</p>
-          <p className="text-xs mt-2 text-gray-600">090-1234-5678</p>
+          <p className="text-xs mt-2 text-gray-600">000-123-456</p>
         </div>
         <div className="mt-6 flex justify-around">
           <div>
             <a
-              href="https://twitter.com/ken_main_js"
+              href="https://nerdcave.com/tailwind-cheat-sheet"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -61,7 +61,7 @@ const Contact = () => {
           </div>
           <div>
             <a
-              href="https://github.com/ken505"
+              href="https://nerdcave.com/tailwind-cheat-sheet"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,6 +79,4 @@ const Contact = () => {
       </div>
     </Layout>
   );
-};
-
-export default Contact;
+}

@@ -41,7 +41,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
           rel="noopener noreferrer"
         >
           Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2"  />
+          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
         </a>
       </footer>
     </div>
